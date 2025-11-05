@@ -46,26 +46,14 @@ java KuyCampStrategyDemo
 
 Program akan meminta Anda memilih salah satu skenario denda:
 
-Pilihan
+| Pilihan | Masukan yang Diperlukan        | Strategi yang Dipilih         |
+| ------- | ------------------------------ | ----------------------------- |
+| **1**   | Masukkan jumlah hari terlambat | `DendaKeterlambatanStrategy`  |
+| **2**   | Masukkan persentase kerusakan  | `TanggunganKerusakanStrategy` |
 
-Masukan yang Diperlukan
+#### Contoh Eksekusi:
 
-Strategi yang Dipilih
-
-1
-
-Masukkan jumlah hari terlambat
-
-DendaKeterlambatanStrategy
-
-2
-
-Masukkan persentase kerusakan
-
-TanggunganKerusakanStrategy
-
-Contoh Eksekusi:
-
+```bash
 --- PENENTUAN DENDA ALAT KUYCAMP (Strategy Pattern Demo) ---
 
 Pilih Jenis Masalah:
@@ -79,3 +67,4 @@ Pilih Jenis Masalah:
 =============================================
 Total Biaya Tambahan Dikenakan: Rp 100.000,00
 =============================================
+```
